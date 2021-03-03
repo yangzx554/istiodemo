@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: registry-intl.ap-southeast-1.aliyuncs.com/jianbentest/istiodemo:2021-03-03-14-19-43
+        image: ${image}
         resources:
           requests:
             cpu: "100m"
