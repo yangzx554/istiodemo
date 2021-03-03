@@ -1,4 +1,4 @@
-FROM python:3.10.0a6
+FROM python:3.5-onbuild
 
 WORKDIR /opt/microservices
 COPY app.py /opt/microservices/
